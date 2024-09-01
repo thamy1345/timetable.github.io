@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #39FF14; /* Neon green */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #39FF14; /* Neon green */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #39FF14; /* Neon green */
+}
+
+th {
+    background-color: #111;
+    color: #39FF14; /* Neon green */
+}
+
+td {
+    background-color: black;
+    color: #ccc;
+}
+
+tr:nth-child(even) td {
+    background-color: #39FF14; /* Neon green */
+    color: black;
+}
+
+tr:hover td {
+    background-color: #333;
+}
